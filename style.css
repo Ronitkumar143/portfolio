@@ -1,0 +1,144 @@
+*{
+    padding:0;
+}
+
+body{
+  background-color: black;
+  color: white;
+  font-family: 'poppins',sans-serif;
+
+}
+nav{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    height: 80px;
+    background-color: rgb(18, 18,62);
+    cursor: pointer;
+
+}
+nav ul{
+    display: flex;
+    justify-content: center;
+}
+nav ul li{
+    list-style: none;
+    margin: 0 23px;
+}
+nav ul li a:hover{
+    text-decoration: none;
+    color: white;
+}
+nav ul li a:hover{
+    color: rgb(153, 153, 226);
+    font-size: 1.05rem;
+}
+
+main hr{
+    border: 0;
+    background: #9c97f1;
+    height:1.2px;
+    margin:40px 84px;
+}
+.left{
+    font-size: 3rem;
+}
+.firstSection{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    margin: 130px 0;
+}
+.firstSection > div{
+    width: 30%;
+}
+.leftSection{
+    font-size: 3rem;
+}
+.leftSection .btn{
+    padding: 12px;
+    background:#1e2167;
+    color:white;
+    border: 2px solid white;
+    border-radius: 6px;
+    font-size: 25px;
+    cursor: pointer;
+}
+.rightSection img{
+    width: 80%;
+}
+.purple{
+    color: rgb(170, 107, 228);
+}
+.text-gray 
+
+#element {
+    color: rgb(170, 107,228);
+}
+.secondSection{
+    max-width: 80vh;
+    margin: auto;
+    height: 80vh;
+}
+.secondSection h1{
+    font-size: 2rem;
+}
+
+.secondSection .box{
+    background: white;
+    width: 80vw;
+    height: 2px;
+    margin: 56px 0;
+}
+
+.secondSection .vertical {
+    height: 93px;
+    width: 1px;
+    background-color: white;
+    margin: 0 120px;
+}
+.image-top{
+    width: 23px;
+    position: relative;
+    top: -32px;
+    left: -9px;
+}
+.vertical-title{
+position: relative;
+top: 75px;
+width: 150px;
+font-size: 9px;
+}
+.vertical-desc{
+    position: relative;
+top: 75px;
+width: 150px;
+font-size: 9px;
+}
+
+.container{
+    
+    background-color: rgb(22, 22, 42);
+    height: 46vh;
+    margin-top: 10px;
+    font-size: 1.3rem;
+}
+.btn{
+    background-color: rgb(72, 27, 195);
+    border-radius: 4px;
+}
+.about{
+    font-size: 1.3rem;
+    color: rgb(21, 104, 104);
+}
+.skills{
+    font-size: 1.3rem;
+    color: aquamarine;
+}
+
+footer {
+    background-color: #380d4a;
+    color: hsl(202, 71%, 75%);
+    text-align: center;
+    padding: 15px;
+}
