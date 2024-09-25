@@ -1,55 +1,48 @@
 body {
     font-family: Arial, sans-serif;
-    background-color: #f4f4f4;
+    background-color: #a6f4fb;
     margin: 0;
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    height: 100vh;
-}
-
-.contact-container {
-    background: #fff;
     padding: 20px;
-    border-radius: 5px;
-    box-shadow: 0 0 10px rgba(0,0,0,0.1);
-    width: 100%;
-    max-width: 500px;
 }
 
-h1 {
-    margin-top: 0;
+.container {
+    max-width: 600px;
+    margin: auto;
+    background: white;
+    padding: 20px;
+    border-radius: 8px;
+    box-shadow: 0 2px 10px rgba(0, 0, 0, 0.1);
 }
 
-form {
-    display: flex;
-    flex-direction: column;
+h1, h2 {
+    text-align: center;
+}
+
+.form-group {
+    margin-bottom: 15px;
 }
 
 label {
-    margin-top: 10px;
+    display: block;
+    margin-bottom: 5px;
 }
 
-input, textarea {
-    padding: 10px;
-    margin-top: 5px;
-    border: 1px solid #ccc;
-    border-radius: 3px;
-    width: 100%;
-}
-
+input[type="text"],
+input[type="email"],
 textarea {
-    resize: vertical;
+    width: 100%;
+    padding: 10px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
 }
 
 button {
+    width: 100%;
     padding: 10px;
-    margin-top: 15px;
-    border: none;
-    border-radius: 3px;
     background-color: #5cb85c;
-    color: #fff;
-    font-size: 16px;
+    border: none;
+    color: white;
+    border-radius: 4px;
     cursor: pointer;
 }
 
@@ -57,8 +50,12 @@ button:hover {
     background-color: #4cae4c;
 }
 
-#response-message {
-    margin-top: 15px;
-    font-size: 14px;
-    color: green;
+.contact-info {
+    margin-top: 20px;
+    text-align: center;
+}
+
+.contact-info a {
+    color: #337ab7;
+    text-decoration: none;
 }
